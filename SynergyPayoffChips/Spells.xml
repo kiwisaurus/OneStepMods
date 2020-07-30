@@ -1,5 +1,65 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Spells>
-    <Spell itemID="HellFiretest">
-    </Spell>
+    <!--
+    <Spell itemID="template">
+        <Stats animBlast="BasicCast" animShot="LeaSphere" shotSound="mark_02" cooldown="0.05"
+      setToGunPoint="Both" yVariance="0"></Stats>
+        <HitAllies></HitAllies>
+        <HitEnemies>true</HitEnemies>
+        <HitSelf></HitSelf>
+        <HitStructures>true</HitStructures>
+        <Name>Field Bracer</Name>
+        <Tags>Weapon</Tags>
+        <Unlock></Unlock>
+        <Action>Multishot</Action>
+        <Description>Used for field testing</Description>
+        <Meta>Fires small shots</Meta>
+        <Flavor>non</Flavor>
+        <Brand></Brand>
+        <Mana>0</Mana>
+        <Damage>2</Damage>
+        <Shots>1</Shots>
+        <Tiles>1</Tiles>
+        <Location>Current</Location>
+        <TimeBetweenShots>0.02</TimeBetweenShots>
+        <ShotVelocity>700</ShotVelocity>
+        <ShotDuration>1</ShotDuration>
+        <ShotDelay></ShotDelay>
+        <CastDelay>0</CastDelay>
+        <CastDuration></CastDuration>
+        <BlastDuration></BlastDuration>
+        <DestroyOnHit>true</DestroyOnHit>
+        <OnCast></OnCast>
+  </Spell>
+ -->
+    <Spell itemID="OrbitalGun">
+        <Stats animWarning="WarningDangerC" animObj="" shotSound="thunderclap" setToGunPoint="None"
+      bending="1000"> </Stats>
+    <HitAllies></HitAllies>
+    <HitEnemies>true</HitEnemies>
+    <HitSelf></HitSelf>
+    <HitStructures>true</HitStructures>
+    <Name>Orbital Gun</Name>
+    <Tags>Player, PvP, Demo, Live</Tags>
+    <Action>Mortar</Action>
+    <Description></Description>
+    <Meta>After a delay call down thunder 4 steps away. Leave a flame.</Meta>
+    <Rarity>1</Rarity>
+    <Brand>Anima</Brand>
+    <Mana>1</Mana>
+    <Damage>200</Damage>
+    <Shots>1</Shots>
+    <Tiles>1</Tiles>
+    <Location>HalfField</Location>
+    <TimeBetweenShots>0</TimeBetweenShots>
+    <ShotVelocity>250</ShotVelocity>
+    <ShotDuration>0.1</ShotDuration>
+    <ShotDelay></ShotDelay>
+    <CastDelay>0.5</CastDelay>
+    <BlastDuration>0</BlastDuration>
+    <WarningDuration>0.7</WarningDuration>
+    <DestroyOnHit></DestroyOnHit>
+    <OnCast></OnCast>
+    <TouchTile chance="1">Flame</TouchTile>
+  </Spell>
 </Spells>
