@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<WorkshopItemInfo xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <PublishedFileId>2182024822</PublishedFileId>
+  <Name>SynergyPayoffChips</Name>
+  <Description>Some synergy feel as if they lack payoffs. Here's some attempting to rectify that</Description>
+  <IconFileName>workshopIcon.png</IconFileName>
+  <Tags />
+  <Priority>0</Priority>
+  <ModVersion>0</ModVersion>
+  <GameVersion>1.4.2</GameVersion>
+</WorkshopItemInfo>
